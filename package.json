@@ -1,0 +1,38 @@
+{
+    "name": "nodejs-project",
+    "version": "1.0.0",
+    "description": "E-Commerce website",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "start-single": "nodemon app.js",
+        "start-multi": "nodemon cluster.js",
+        "bench": "node benchmark.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Vikash003/E-Commerce_Project.git"
+    },
+    "engines": {
+        "node": "12.6.0"
+    },
+    "author": "Vikash",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^2.6.2",
+        "express": "^4.17.1",
+        "express-handlebars": "^3.0.0",
+        "http-server": "^0.11.1",
+        "jshint": "^2.11.0-rc1",
+        "mysql2": "^1.7.0",
+        "public-ip": "^3.1.0",
+        "pug": "^2.0.4",
+        "sequelize": "^5.21.3",
+        "siege": "^0.2.0"
+    }
+}

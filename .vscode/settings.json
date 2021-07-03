@@ -1,0 +1,8 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "json.maxItemsComputed": 10000
+}
